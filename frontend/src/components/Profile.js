@@ -135,7 +135,6 @@ class Profile extends React.Component {
               />
               <h4 className="py-2">{profile.username}</h4>
               <p>{profile.bio}</p>
-
               <EditProfileSettings isUser={isUser} />
               <FollowUserButton
                 isUser={isUser}
